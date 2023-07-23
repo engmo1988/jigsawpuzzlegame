@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#puzzle-container {
+    border: 2px solid #000;
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+
+.puzzle-piece {
+    position: absolute;
+    border: 2px solid #000;
+}
+
+#file-input {
+    margin-bottom: 10px;
+}
+
+#upload-btn {
+    margin-bottom: 10px;
+}
